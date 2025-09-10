@@ -6,7 +6,7 @@ pipeline {
         stage('CLONE SCM') {
             steps {
                 echo 'This stage clones SC from GIT repo'				
-				git branch: 'main', url: 'https://github.com/devopstraininghub/mindcircuit16d.git'
+				git branch: 'main', url: 'https://github.com/Sk-Nagul-09/mindcircuit16d.git'
             }
         }
 		
