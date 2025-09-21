@@ -13,7 +13,7 @@ pipeline {
         stage('Build Artifact') {
             steps {
                 echo 'This stage builds the code using maven'
-				sh 'mvn clean install'			
+				sh 'mvn clean deploy'			
 				
             }
         }
