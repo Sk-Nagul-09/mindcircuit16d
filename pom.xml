@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://54.90.208.145:8081/repository/b16d-snapshot-repo/</url>
+		    <url>http://98.88.254.222:8081/repository/SNAPSHOT-PROJECT1-REPO/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://54.90.208.145:8081/repository/b16d-release-repo/</url>
+		    <url>http://98.88.254.222:8081/repository/Release-PROJECT1-REPO/</url>
 		</repository>
   	</distributionManagement>
 
