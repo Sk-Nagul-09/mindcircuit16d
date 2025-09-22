@@ -37,6 +37,13 @@ pipeline {
 				sh 'mvn clean install'
             }
         }
+
+		stage('Build Artifact') {
+            steps {
+                echo 'This stage builds the code using maven'
+				sh 'mvn clean deploy'
+            }
+        }
 		
         stage('Deploy to Tomcat') {
             steps {
