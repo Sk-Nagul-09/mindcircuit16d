@@ -2,6 +2,9 @@
 <head>
     <title>Your Name - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        <%@ include file="css.jsp" %>
+    </style>
 </head>
 <body>
     <header>
